@@ -15,10 +15,10 @@
             bindings = <
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
              &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
-             &mt LSHFT A   &mt LCTRL S   &mt LALT D    &mt LMETA F   &kp G             &kp H         &mt RMETA J   &mt RCTRL K   &mt RALT L    &mt RMETA TAB
-             &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
+             &mt LSHFT A   &mt LCTRL S   &mt LALT D    &mt LMETA F   &kp G             &kp H         &mt RMETA J   &mt RCTRL K   &mt RALT L    &mt RMETA SQT
+             &kp Z         &kp X         &lt 2 C       &lt 1 V       &kp B             &kp N         &lt 1 M       &lt 2 COMMA   &kp DOT       &kp FSLH
         // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &sl 2         &kp ESC       &kp SPACE         &kp RETURN    &kp BSPC      &tog 1
+                                         &kp TAB       &kp ESC       &kp SPACE         &kp RETURN    &kp BSPC      &none
         //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                
             >;
@@ -49,5 +49,6 @@
         //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
+
     };
 };
