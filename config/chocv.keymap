@@ -19,9 +19,9 @@
              &mt LSHFT A   &mt LCTRL S   &mt LALT D    &mt LMETA F   &kp G             &kp H         &mt RMETA J   &mt RALT K    &mt RCTRL L   &mt RSHIFT COLON
              &kp Z         &lt 3 X       &lt 2 C       &lt 1 V       &kp B             &kp N         &lt 1 M       &lt 2 COMMA   &lt 3 DOT     &kp FSLH
         // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &kp TAB       &kp ESC       &kp SPACE         &kp RETURN    &kp BSPC      &none
+                                         &kp ESC       &kp TAB       &kp SPACE         &kp RETURN    &kp BSPC      &none
         //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
-               
+
             >;
         };
 
@@ -51,14 +51,13 @@
             >;
         };
 
-
         cus_layer {
             label = "Cus";
             bindings = <
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
              &none         &none         &none         &none         &none             &none         &none         &none         &none         &bt BT_CLR
-             &none         &none         &none         &none         &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    
-             &none         &none         &none         &none         &none             &none         &none         &none         &none         &soft_off    
+             &none         &none         &none         &none         &none             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+             &none         &none         &none         &none         &none             &none         &none         &none         &none         &soft_off
         // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
                                          &trans        &trans        &trans            &trans        &trans        &trans
         //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
